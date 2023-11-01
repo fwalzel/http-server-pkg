@@ -1,9 +1,9 @@
 {
   "name": "http-server-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bundle your project with a http-server in a single executable (mac/windows).",
   "main": "dist/index.html",
-  "bin" : "pkg.js",
+  "bin": "pkg.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fwalzel/http-server-pkg.git"
