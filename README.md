@@ -33,13 +33,13 @@ pkg .
 Your executable files (Mac/ Win) will be build to the folder `./executable`, according to the specs given in the package.json.
 (This is what the dot '.' argument after the pkg command means: use the configuration as defined in the package.json).
 
-`:clap:` Done! `:clap:`
+:clap: Done! :clap:
 
 ## Motivation
 
 Some projects or frameworks need a web server in order to run. For local deployment, presentation or testing this can
 become a problem, i.e. when third parties are involved (clients, collaborators, …). Explaining someone with no technical
-background how to install Node.js and run a local web server just to see our project is very inconvenient. `:smirk:`
+background how to install Node.js and run a local web server just to see our project is very inconvenient. :smirk:
 To solve this, *http-server-pkg* creates an executable package that contains a web server alongside with your project.
 A simple double click on the executable will start the web server, open Google Chrome, and run your project.
 
