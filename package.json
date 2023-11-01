@@ -1,0 +1,42 @@
+{
+  "name": "http-server-pkg",
+  "version": "1.0.1",
+  "description": "Bundle your project with a http-server in a single executable (mac/windows).",
+  "main": "dist/index.html",
+  "bin": "pkg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwalzel/http-server-pkg.git"
+  },
+  "pkg": {
+    "scripts": [
+      "pkg.js",
+      "package.json"
+    ],
+    "assets": "dist/**/*",
+    "targets": [
+      "node18-macos-x64",
+      "node18-win-x64"
+    ],
+    "outputPath": "executable"
+  },
+  "keywords": [
+    "build-in local web server",
+    "http-server",
+    "PKG",
+    "bundle",
+    "package",
+    "executable",
+    "stand-alone"
+  ],
+  "author": "Florian Walzel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fwalzel/http-server-pkg/issues"
+  },
+  "homepage": "https://github.com/fwalzel/http-server-pkg#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "pkg": "^5.8.1"
+  }
+}
