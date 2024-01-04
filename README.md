@@ -7,13 +7,14 @@ Build a simple double click executable that will start a web server, open Google
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Node.js Version](https://img.shields.io/badge/Node.js-14.x-green)
 [![Build](https://github.com/fwalzel/http-server-pkg/actions/workflows/ci.yml/badge.svg)](https://github.com/fwalzel/http-server-pkg/actions/workflows/ci.yml/badge.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/fwalzel/http-server-pkg/badge.svg)](https://snyk.io/test/github/fwalzel/http-server-pkg/badge.svg)
 
 ## License
 
 Copyright (c) 2023 Florian Walzel,
 MIT License
 
-## Install[](https://)
+## Install
 
 ```sh
 npm install http-server-pkg
@@ -35,7 +36,7 @@ Your executable files (Mac/ Win) will be build to the folder `./executable`, acc
 
 :clap: Done! :clap:
 
-## [](https://)Motivation
+## Motivation
 
 Some projects or frameworks need a web server in order to run. For local deployment, presentation or testing this can
 become a problem, i.e. when third parties are involved (clients, collaborators, …). Explaining someone with no technical
