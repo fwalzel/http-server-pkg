@@ -1,18 +1,13 @@
 # http-server-pkg
 
-Bundle your project together with a http-server in a single executable (macOS / Windows / Linux).
+Bundle your project together with a http-server in a single executable (macOS / Windows / Linux). Build a simple 
+double click executable that will start a web server, open Google Chrome, and run your project.
 
-Build a simple double click executable that will start a web server, open Google Chrome, and run your project.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Node.js Version](https://img.shields.io/badge/Node.js-14.x-green)
 [![Build](https://github.com/fwalzel/http-server-pkg/actions/workflows/ci.yml/badge.svg)](https://github.com/fwalzel/http-server-pkg/actions/workflows/ci.yml/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/fwalzel/http-server-pkg/badge.svg)](https://snyk.io/test/github/fwalzel/http-server-pkg/badge.svg)
-
-## License
-
-Copyright (c) 2023 Florian Walzel,
-MIT License
 
 ## Install
 
@@ -51,3 +46,8 @@ For your build options see [PKG Targets](https://www.npmjs.com/package/pkg#targe
 ## See the Gist
 
 [Running a Vue.js App as a Stand-alone Executable (Mac / Windows)](https://gist.github.com/fwalzel/9e74d2a6b28abca07270d6376cb00949#file-pkg-js)
+
+## License
+
+Copyright (c) 2023–25 Florian Walzel,
+MIT License
