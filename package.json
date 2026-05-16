@@ -1,6 +1,6 @@
 {
   "name": "http-server-pkg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bundle your project with a http-server in a single executable (mac/windows).",
   "main": "dist/index.html",
   "bin": "pkg.js",

@@ -31,6 +31,11 @@ Your executable files (Mac/ Win) will be build to the folder `./executable`, acc
 
 :clap: Done! :clap:
 
+---
+
+[![Florian Walzel, What was design? Declarations and definitions from a century of creative quest](https://florianwalzel.com/wwd-hero-f.webp)](https://www.slanted.de/product/what-was-design/)
+
+
 ## Motivation
 
 Some projects or frameworks need a web server in order to run. For local deployment, presentation or testing this can
